@@ -1,0 +1,41 @@
+body {
+    font-family: monospace;
+    color: #fff;
+    background-color: #222;
+}
+
+#controls {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.row {
+    display: inline-block;
+}
+
+.square {
+    width: 8px;
+    height: 8px;
+    border: 1px solid #ccc3;
+}
+
+.start {
+    background-color: dodgerblue;
+}
+
+.target {
+    background-color: limegreen;
+}
+
+.debris {
+    background-color: #fff;
+}
+
+.seen {
+    background-color: dodgerblue;
+}
+
+.found {
+    background-color: darkorange !important;
+}

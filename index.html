@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+        <script src="index.js"></script>
+    </head>
+
+    <div id="controls">
+        <div id="radios">
+            <div>
+                <input
+                    type="radio"
+                    id="bfs"
+                    name="searchType"
+                    value="bfs"
+                    checked
+                />
+                <label for="bfs">breadth-first search</label>
+            </div>
+            <div>
+                <input
+                    type="radio"
+                    id="astar"
+                    name="searchType"
+                    value="astar"
+                />
+                <label for="astar">A* search</label>
+            </div>
+        </div>
+        <button>start</button>
+    </div>
+
+    <div id="gridHolder"></div>
+
+    <div id="stats">
+        <span id="visitCount">visit count: 0</span>
+    </div>
+</html>
